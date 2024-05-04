@@ -16,7 +16,7 @@ let planetFacts = {
     yearMarsDiscovered: 1659
 };
 
-let { numPlanets, ...discoveryYears } = planetFacts;
+let { numPlanets: planets, ...discoveryYears } = planetFacts;
 
 console.log(discoveryYears); // { yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659};
 
